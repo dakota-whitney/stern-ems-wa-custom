@@ -110,4 +110,11 @@ e a:hover,
   margin-bottom: 0 !important;
 }
 
+.column-label,
+.table-striped > tbody > tr:nth-of-type(1),
+.table-striped > tbody > tr:nth-of-type(2)
+/*.table-striped > tbody > tr:nth-of-type(2n+1)*/ {
+  display: none;
+}
+
 /*End custom CSS*/
